@@ -11,3 +11,53 @@ html, body {
     font-family: norse;
     src: url(Norse-Bold.otf);
 }
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.logo-section {
+    flex-grow: 1;
+    position: relative;
+    width: 30vw;
+    height: 100vh;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    width: 100%;
+    align-self: flex-start;
+    background-color: rgba(0, 0, 0, 0.750); 
+    margin-top: 100px;
+    padding: 0px 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: norse, sans-serif;
+    color: white;
+    font-size: 4rem;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 5rem;
+    padding: 10px;
+}
+
+.credit {
+    position: absolute;
+    align-self: flex-end;
+    color: white;
+}
+
+.credit a {
+    color: white;
+    text-decoration: none;
+}
