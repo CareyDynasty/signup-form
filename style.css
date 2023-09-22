@@ -61,3 +61,68 @@ html, body {
     color: white;
     text-decoration: none;
 }
+
+.form-section {
+    display: flex;
+    width: 40vw;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(240, 240, 240);
+    padding-right: 10rem;
+    
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.2rem 2vw 2rem 2vw;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+    height: 30vh;
+}
+
+.header, .submit-section {
+    padding: 0px 2vw;
+}
+
+.header p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.input-section p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.user-inputs {
+    width: 25vw;
+}
+
+.user {
+    display: flex;
+}
+
+form {
+    display: flex;
+    width: 60vw;
+    flex-flow: row wrap;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+label {
+    position: relative;
+    width: 15rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+  
+a {
+    text-decoration: none;
+    color: bright rgb(24, 39, 126);
+    font-weight: 800;
+}
